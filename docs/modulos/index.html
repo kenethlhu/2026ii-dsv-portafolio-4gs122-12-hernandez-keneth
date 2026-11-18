@@ -2,152 +2,138 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portafolio de Estudiantes — Desarrollo de Software V</title>
   <meta name="description"
-        content="Prácticas y laboratorios de Nombre Apellidos en la asignatura Desarrollo de Software V.">
-  <meta name="author" content="Nombre Apellidos">
-  <title>Mis entregas | Nombre Apellidos</title>
-  <link rel="stylesheet" href="../assets/css/entregas.css">
+    content="Portafolio de estudiantes de la asignatura Desarrollo de Software V — UTP FISC Veraguas." />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-  <a href="#contenido">Saltar al contenido</a>
+  <!-- Enlaces de salto por accesibilidad -->
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-  <header>
-    <hgroup>
-      <h1>Mis entregas</h1>
-      <p>Desarrollo de Software V (8400) · II Semestre 2026</p>
-    </hgroup>
-    <p>
-      Nombre Apellidos<br>
-      {{GRUPO}}-{{NN}}
-    </p>
-  </header>
+  <main class="container" id="contenido" role="main">
+    <header class="header">
+      <div class="titulos">
+        <h1>Universidad Tecnológica de Panamá</h1>
+        <p class="sub">Centro Regional de Veraguas</p>
+        <p class="sub">Facultad de Ingeniería de Sistemas Computacionales</p>
+        <p class="sub">Licenciatura en Desarrollo y Gestión de Software</p>
+      </div>
 
-  <nav aria-label="Módulos">
-    <h2>Módulos</h2>
-    <ul>
-      <li><a href="#m01">Módulo I</a></li>
-      <li><a href="#m02">Módulo II</a></li>
-      <li><a href="#m03">Módulo III</a></li>
-      <li><a href="#m04">Módulo IV</a></li>
-    </ul>
-  </nav>
+      <div class="logos">
+        <!-- width/height ayudan a evitar “saltos” de layout -->
+        <img class="logo" src="./assets/img/logo-utp.svg" alt="Logo UTP" width="90" height="90" />
+        <img class="logo" src="./assets/img/logo-fisc.svg" alt="Logo FISC" width="90" height="90" />
+      </div>
+    </header>
 
-  <main id="contenido">
-    <p class="intro">
-      Cada módulo reúne sus prácticas y su laboratorio. Las entregas aparecen en
-      el orden en que se desarrollaron durante el semestre. Mi página personal
-      está en <a href="../index.html">la portada del portafolio</a>.
-    </p>
+    <section class="curso">
+      <h2>Desarrollo de Software V</h2>
+      <h3>Portafolio de Estudiantes</h3>
 
-    <section id="m01">
-      <h2>Módulo I · Control de versiones</h2>
-      <p class="resumen">Git y GitHub: una práctica de taller y un laboratorio colaborativo.</p>
-      <ul class="estudiantes">
-        <!--
-          Cuando publiques una entrega, cambia su artículo "pendiente" por uno
-          como este, con los datos que trae la guía de cada actividad:
-
-          <li>
-            <article>
-              <p class="codigo">M02 · Práctica 1</p>
-              <h3><a href="m02-html/p01-estructura/">Estructura básica</a></h3>
-              <ul class="entregas">
-                <li><a href="m02-html/p01-estructura/">Ver</a></li>
-              </ul>
-              <p class="repo">Esqueleto del documento y silueta semántica.</p>
-            </article>
-          </li>
-        -->
+        <ol class="lista-estudiantes">
+        <!-- ================================================================ -->
+        <!-- INSERTA TU ENLACE AQUÍ, COMO PRIMER ELEMENTO DE LA LISTA.        -->
+        <!-- Copia el bloque <li> de abajo, pégalo justo debajo de este       -->
+        <!-- comentario y cambia la ruta y el nombre por los tuyos.           -->
+        <!-- No lo pongas al final ni en medio: va siempre aquí arriba.       -->
+        <!-- ================================================================ -->
         <li>
-          <article class="pendiente">
-            <p class="codigo">M01 · Práctica 1</p>
-            <h3>Taller de Git sobre ConSentidos</h3>
-            <p class="aviso">Pendiente de entregar.</p>
-          </article>
+          <a class="enlace-estudiante" href="./alumnos/hernandez-keneth/about-hernandez-keneth.html">
+            Keneth Hernandez
+          </a>
         </li>
         <li>
-          <article class="pendiente">
-            <p class="codigo">M01 · Laboratorio 1</p>
-            <h3>Portafolio colaborativo con Git</h3>
-            <p class="aviso">Pendiente de entregar.</p>
-          </article>
+          <a class="enlace-estudiante" href="./alumnos/barba-isaac/about-barba-isaac.html">
+            Isaac Barba
+          </a>
         </li>
-      </ul>
+        <li>
+          <a class="enlace-estudiante" href="./alumnos/arroyo-jesus/about-arroyo-jesus.html">
+            Jesús Arroyo Muñoz
+          </a>
+        </li>
+        <li>
+          <a class="enlace-estudiante" href="./alumnos/concepcion-gilbert/about-concepcion-gilbert.html">
+            Gilbert Concepción
+          </a>
+        </li>
+        <li>
+          <a class="enlace-estudiante" href="./alumnos/diaz-luis/about-diaz-luis.html">
+            Luis Diaz
+          </a>
+        </li>
+        <li>
+          <a class="enlace-estudiante" href="./alumnos/carrion-david/about-carrion-david.html">
+            David Carrion
+          </a>
+        </li>
+        <li>
+          <a class="enlace-estudiante" href="./alumnos/guevara-jason/about-guevara-jason.html">
+            Jason Guevara
+          </a>
+        </li>
+        <li>
+          <a class="enlace-estudiante" href="./alumnos/torres-moises/about-torres-moises.html">
+            Moisés Torres
+          </a>
+        </li>
+        <li>
+          <a class="enlace-estudiante" href="./alumnos/torres-cristian/about-torres-cristian.html">
+            Cristian Torres
+          </a>
+        </li>
+        <li>
+          <a class="enlace-estudiante" href="./alumnos/rodriguez-david/about-rodriguez-david.html">
+            David Rodríguez
+          </a>
+        </li>
+        <li>
+          <a class="enlace-estudiante" href="./alumnos/maizon-yasir/about-maizon-yasir.html">
+            Yasir Maizón
+          </a>
+        </li>
+        <li>
+          <a class="enlace-estudiante" href="./alumnos/campos-davis/about-campos-davis.html">
+            Davis Campos
+          </a>
+        </li>
+        <li>
+          <a class="enlace-estudiante" href="./alumnos/camano-hector/about-camano-hector.html">
+            Hector Camano
+          </a>
+        </li>
+        <li>
+          <a class="enlace-estudiante" href="./alumnos/prueba-uno/about-prueba-uno.html">
+            Prueba Uno
+          </a>
+        </li>
+        <li>
+          <a class="enlace-estudiante" href="./alumnos/gomez-valeria/about-gomez-valeria.html">
+            Valeria Gómez
+          </a>
+        </li>
+        <li>
+          <a class="enlace-estudiante" href="./alumnos/apellidos-nombre/about-apellidos-nombre.html">
+            Nombre Apellidos (Patrón)
+          </a>
+        </li>
+      </ol>
     </section>
 
-    <section id="m02">
-      <h2>Módulo II · Páginas web y HTML</h2>
-      <p class="resumen">
-        El sitio de la Clínica Veterinaria ConSentidos, construido práctica a práctica.
-      </p>
-      <ul class="estudiantes">
-        <li>
-          <article class="pendiente">
-            <p class="codigo">M02 · Práctica 1</p>
-            <h3>Estructura básica</h3>
-            <p class="aviso">Pendiente de entregar.</p>
-          </article>
-        </li>
-        <li>
-          <article class="pendiente">
-            <p class="codigo">M02 · Práctica 2</p>
-            <h3>Guía de componentes</h3>
-            <p class="aviso">Pendiente de entregar.</p>
-          </article>
-        </li>
-        <li>
-          <article class="pendiente">
-            <p class="codigo">M02 · Práctica 3</p>
-            <h3>Tablas</h3>
-            <p class="aviso">Pendiente de entregar.</p>
-          </article>
-        </li>
-        <li>
-          <article class="pendiente">
-            <p class="codigo">M02 · Práctica 4</p>
-            <h3>Formulario de cita</h3>
-            <p class="aviso">Pendiente de entregar.</p>
-          </article>
-        </li>
-        <li>
-          <article class="pendiente">
-            <p class="codigo">M02 · Práctica 5</p>
-            <h3>Revisión de seguridad y calidad</h3>
-            <p class="aviso">Pendiente de entregar.</p>
-          </article>
-        </li>
-        <li>
-          <article class="pendiente">
-            <p class="codigo">M02 · Laboratorio 2</p>
-            <h3>Sitio académico completo</h3>
-            <p class="aviso">Pendiente de entregar.</p>
-          </article>
-        </li>
-      </ul>
-    </section>
-
-    <section id="m03">
-      <h2>Módulo III · Hojas de estilo</h2>
-      <p class="resumen">Aún no comienza.</p>
-    </section>
-
-    <section id="m04">
-      <h2>Módulo IV · JavaScript</h2>
-      <p class="resumen">Aún no comienza.</p>
-    </section>
+    <footer class="footer">
+      <small>
+        © 2026 Universidad Tecnológica de Panamá · Centro Regional de Veraguas<br />
+        Licenciatura en Desarrollo y Gestión de Software —
+        <span class="accent-course">Desarrollo de Software V</span>
+        <span class="sep">·</span>
+        <span class="accent-prof">Prof. José Peralta B.</span>
+      </small>
+    </footer>
   </main>
-
-  <footer>
-    <p><a href="../index.html">Volver a mi página personal</a></p>
-    <p>
-      <small>&copy; 2026 Nombre Apellidos. Portafolio académico de la asignatura
-      Desarrollo de Software V, Universidad Tecnológica de Panamá, Centro
-      Regional de Veraguas.</small>
-    </p>
-  </footer>
 </body>
 
 </html>
